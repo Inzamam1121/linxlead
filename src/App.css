@@ -1,0 +1,7 @@
+.DropSign::after{
+    content: "";
+    width: 100%;
+    height: 4px;
+    background-color: #33CCFF;
+    
+}
