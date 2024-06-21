@@ -18,7 +18,7 @@ const PerfectPlan = () => {
         "Reporting"
     ]
     return (
-        <div className='flex justify-center items-center flex-col gap-8 w-[90%] lg:w-[80%] mx-auto my-20 font-pop'>
+        <div className='flex justify-center items-center flex-col gap-20 w-[90%] lg:w-[80%] mx-auto my-20 font-pop'>
             <h1 className='text-3xl md:text-5xl font-bold'>Choose the <span className='text-primblue'>perfect plan</span> for you!</h1>
 
 

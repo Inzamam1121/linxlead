@@ -11,8 +11,8 @@ const CommonSolution = ({Data}) => {
                         <img src={item.image} alt="" className='md:w-[70%] mx-auto' />
                     </div>
                     <div className="flex basis-[45%] flex-col gap-6 font-pop">
-                        <h2 className='text-2xl md:text-4xl font-bold'>{item.head}</h2>
-                        <p>{item.para}</p>
+                        <h2 className='leading-9 md:leading-[3.5rem] text-[1.5rem] md:text-[2.25rem] font-bold'>{item.head}</h2>
+                        <p className='text-base md:text-lg'>{item.para}</p>
                     </div>
                 </div>
             ))}

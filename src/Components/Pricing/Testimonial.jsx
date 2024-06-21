@@ -66,8 +66,8 @@ const Testimonial = () => {
         },
     ]
     return (
-        <div className='flex flex-col gap-10 w-[90%] lg:w-[80%] mx-auto justify-center items-center'>
-            <h1 className='text-3xl md:text-5xl font-bold'>See how Linxlead helps others <span className='text-primblue'>increase revenue.</span></h1>
+        <div className='flex flex-col gap-2 w-[95%] lg:w-[90%] mx-auto justify-center items-center'>
+            <h1 className='leading-10 md:leading-[4rem] text-[1.875rem] md:text-[3rem] font-pop font-bold'>See how Linxlead helps others <span className='text-primblue'>increase revenue.</span></h1>
             <div className='max-w-[100%]'>
                 <Swiper
                     slidesPerView={1}

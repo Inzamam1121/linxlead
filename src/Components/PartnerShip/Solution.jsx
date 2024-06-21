@@ -24,13 +24,13 @@ const Solution = () => {
         },
         {
             image:"../Images/Prop/Solution/GTM.png",
-            head:<>Enhance and analyze with our<span className='text-primblue'>GTM integration.</span></>,
+            head:<>Enhance and analyze with our <span className='text-primblue'>GTM integration.</span></>,
             para:"Create custom chat, monitor user behavior, measure ad success, track the number of registrations and much more thanks to our unique-on-the-market Google Tag Manager integration."
         },
     ]
   return (
     <div className='w-[90%] md:w-[80%] mx-auto flex flex-col gap-6 items-center font-pop my-10 md:my-20'>
-        <h2 className='text-center text-3xl max-w-3xl lg:text-5xl font-bold'>Have your solution <span className='text-primblue'>live and ready</span> in less than 7 days.</h2>
+        <h2 className='text-center max-w-3xl leading-10 md:leading-[4rem] text-[1.875rem] md:text-[3rem] font-bold'>Have your solution <span className='text-primblue'>live and ready</span> in less than 7 days.</h2>
         <div className="flex flex-col gap-20">
             {Data?.map((item,index)=>(
                 <div className={`flex gap-8 flex-col items-center justify-between ${index%2==0? "lg:flex-row":"lg:flex-row-reverse"}`} key={index}>
@@ -38,7 +38,7 @@ const Solution = () => {
                         <img src={item.image} alt="" className='md:w-[70%] mx-auto' />
                     </div>
                     <div className="flex basis-[45%] flex-col gap-6 font-pop">
-                        <h2 className='text-2xl md:text-4xl font-bold'>{item.head}</h2>
+                        <h2 className='leading-10 md:leading-[3.5rem] text-[1.875rem] md:text-[2.25rem] font-bold'>{item.head}</h2>
                         <p>{item.para}</p>
                     </div>
                 </div>

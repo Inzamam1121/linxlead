@@ -29,11 +29,11 @@ const WhatisInIt = () => {
     },
   ]
   return (
-    <div className='grid grid-cols-1 lg:grid-cols-2 gap-16 font-pop w-[90%] md:w-[80%] mx-auto'>
+    <div className='grid grid-cols-1 lg:grid-cols-2 gap-16 pb-10 font-pop w-[90%] md:w-[80%] mx-auto'>
       <h2 className='text-3xl md:text-5xl font-bold'>What’s <span className='text-primblue'>in it</span> for you?</h2>
       {Data?.map((item,index)=>(
         <div className="flex gap-4 font-pop">
-          <div className="bg-white rounded-xl p-2 shadow-shadowwhat">
+          <div className="bg-white h-fit rounded-xl p-2 shadow-shadowwhat">
             <img src={item.icon} alt="" className='w-6 h-6' />
           </div>
           <div className="flex flex-col gap-2">

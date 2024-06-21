@@ -12,8 +12,8 @@ const AboutComp = () => {
         "../Images/Prop/AboutComp/image6.png",
     ]
     return (
-        <div className='w-[90%] md:w-[80%] mx-auto mb-20 flex flex-col lg:flex-row justify-between gap-10 items-center'>
-            <div className="flex flex-col gap-10 basis-[50%]">
+        <div className='w-[90%] md:w-[90%] mx-auto mb-20 flex flex-col lg:flex-row justify-between gap-10 items-center'>
+            <div className="flex flex-col gap-20 basis-[40%]">
                 <div className="w-[60%] relative mx-auto">
                     <img src="../Images/Prop/AboutComp.png" alt="" className='w-full' />
                     <img src="../Images/Prop/AboutTag.png" alt="" className='absolute top-[10%] left-[-30%] w-[70%]' />
@@ -30,16 +30,16 @@ const AboutComp = () => {
                     ))}
                 </div>
             </div>
-            <div className="flex flex-col gap-4 basis-[50%]">
+            <div className="flex flex-col gap-4 basis-[45%]">
                 <div className="flex gap-2 items-center font-pop">
                     <div className="bg-tempyellow rounded-lg p-2">
                         <IoBag className='text-white text-xl' />
                     </div>
                     <p className='text-lg'>About Us</p>
                 </div>
-                <h2 className='text-3xl md:text-5xl font-extrabold'>We Change The Industry For The <span className='text-tempyellow'>Better</span>.</h2>
-                <p className='font-medium'>At LinxLead, we're revolutionizing outreach by empowering genuine connections and fostering lasting relationships. Our platform is dedicated to redefining industry standards, enabling authentic engagement and meaningful interactions. </p>
-                <p className='font-medium'>With LinxLead, you can expect unparalleled support and industry-leading performance as we reshape the way businesses connect and thrive.</p>
+                <h2 className='leading-10 md:leading-[4rem] text-[1.875rem] md:text-[3rem] font-extrabold'>We Change The Industry For The <span className='text-tempyellow'>Better</span>.</h2>
+                <p className='text-base md:text-lg font-pop'>At LinxLead, we're revolutionizing outreach by empowering genuine connections and fostering lasting relationships. Our platform is dedicated to redefining industry standards, enabling authentic engagement and meaningful interactions. </p>
+                <p className='text-base md:text-lg font-pop'>With LinxLead, you can expect unparalleled support and industry-leading performance as we reshape the way businesses connect and thrive.</p>
             </div>
         </div>
     )

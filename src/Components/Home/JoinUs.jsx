@@ -39,8 +39,8 @@ const JoinUs = () => {
     ]
 
     return (
-        <div className='my-10 w-[90%] md:w-[80%] flex flex-col gap-20 mx-auto'>
-            <div className="flex flex-col gap-2 text-center fontpop">
+        <div className='my-10 w-[90%] md:w-[80%] flex flex-col gap-14 mx-auto'>
+            <div className="flex flex-col gap-6 text-center fontpop">
                 <h2 className='text-3xl md:text-5xl font-extrabold'>Join Our Thriving Community</h2>
                 <p className='md:text-lg'>LinxLead is a proven game-changer in LinkedIn automation, with impressive metrics underscoring our clients' success. We help Sellers Scale without buying leads, chasing referrals, spending hours on the phone, going to networking events, posting the same thing over and over, and all the other 🐂💩 that doesn't work...</p>
             </div>
@@ -54,7 +54,7 @@ const JoinUs = () => {
             </div>
             <div className="flex flex-col lg:flex-row justify-between gap-20">
                 <div className="basis-[30%] flex flex-col gap-8 font-pop">
-                    <h2 className='text-3xl md:text-5xl font-extrabold'>Experience the <span className='text-primblue'>Brilliance</span> of Efficiency</h2>
+                    <h2 className='leading-10 md:leading-[4rem] text-[1.875rem] md:text-[3rem]  font-extrabold'>Experience the <span className='text-primblue'>Brilliance</span> of Efficiency</h2>
                     <p>Book meetings at an unprecedented pace and watch your success soar!</p>
                     <button className='flex items-center gap-2 rounded-lg w-fit border-2 border-tempyellow bg-tempyellow text-black hover:bg-transparent ease-in-out duration-300 py-2 px-3 font-bold'>
                         <p>Explore More</p>
