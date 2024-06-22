@@ -7,7 +7,7 @@ const CommonSolution = ({Data}) => {
         <div className="flex flex-col gap-20">
             {Data?.map((item,index)=>(
                 <div className={`flex gap-8 flex-col items-center justify-between ${index%2==0? "lg:flex-row":"lg:flex-row-reverse"}`} key={index}>
-                    <div className="basis-[40%]">
+                    <div className="basis-[45%]">
                         <img src={item.image} alt="" className='md:w-[70%] mx-auto' />
                     </div>
                     <div className="flex basis-[45%] flex-col gap-6 font-pop">

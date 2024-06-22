@@ -51,11 +51,11 @@ const Nav = () => {
 
     return (
         <>
-            <div className='bg-white fixed z-50 top-0 w-screen py-2 px-8 flex items-center justify-between gap-4'>
+            <div className='bg-white fixed z-50 top-0 w-screen py-4 px-8 flex items-center justify-between gap-4'>
                 <Link to="/">
                     <div className="flex gap-1 font-pop text-xl font-semibold items-center">
-                        <img src="../Logo.png" alt="" className='w-16 h-16' />
-                        <h3>Linxlead</h3>
+                        <img src="../Logo2.png" alt="" className='w-40' />
+                        {/* <h3>Linxlead</h3> */}
                     </div>
                 </Link>
                 <div className=" gap-6 text-lg xl:flex hidden font-pop text-medium items-center">
