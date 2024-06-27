@@ -40,9 +40,9 @@ const JoinUs = () => {
 
     return (
         <div className='my-10 w-[90%] md:w-[80%] flex flex-col gap-14 mx-auto'>
-            <div className="flex flex-col gap-6 text-center fontpop">
-                <h2 className='text-3xl md:text-5xl font-extrabold'>Join Our Thriving Community</h2>
-                <p className='md:text-lg'>LinxLead is a proven game-changer in LinkedIn automation, with impressive metrics underscoring our clients' success. We help Sellers Scale without buying leads, chasing referrals, spending hours on the phone, going to networking events, posting the same thing over and over, and all the other 🐂💩 that doesn't work...</p>
+            <div className="flex flex-col gap-10 text-center fontpop">
+                <h2 className='text-3xl font-pop md:text-5xl font-extrabold'>Join Our Thriving Community</h2>
+                <p className='md:text-lg font-pop'>LinxLead is a proven game-changer in LinkedIn automation, with impressive metrics underscoring our clients' success. We help Sellers Scale without buying leads, chasing referrals, spending hours on the phone, going to networking events, posting the same thing over and over, and all the other 🐂💩 that doesn't work...</p>
             </div>
             <div className="flex justify-evenly gap-6 items-center flex- lg:flex-row">
                 {Data?.map((item, index) => (
@@ -61,7 +61,7 @@ const JoinUs = () => {
                         <FaArrowRight className='text-2xl' />
                     </button>
                 </div>
-                <div className="basis-[60%] grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="basis-[60%] grid grid-cols-1 md:grid-cols-2 gap-14">
                     {ExploreData?.map((item, index) => (
                         <div className="flex flex-col gap-4 font-pop" key={index}>
                             <div className="bg-black rounded-lg p-2 w-fit">
