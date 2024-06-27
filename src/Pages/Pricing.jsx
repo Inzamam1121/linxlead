@@ -9,7 +9,7 @@ const Pricing = () => {
     <div>
         <BannerNoImage 
             head={<><span className='text-primblue'>Supercharge</span> your outreach with LinxLead! </>} 
-            para={"Start your 7-day free trial, and choose the right plan for your business."}
+            para={"Start today, and choose the right plan for your business."}
         />
         <PricingSec/>
         <PerfectPlan/>

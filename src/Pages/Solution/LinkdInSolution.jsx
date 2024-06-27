@@ -27,7 +27,7 @@ const LinkdInSolution = () => {
         {
             image:"../Images/Prop/SolutionData/Linkdin/image5.png",
             head:<>Get In Touch With More <span className='text-primblue'>Leads Faster.</span></>,
-            para:"Combine if/else conditions with connection requests, messages, paid & free InMails, and the View and Follow steps into Smart sequence to contact more leads in less time."
+            para:"Combine if/else conditions with connection requests, messages, paid InMails, and the View and Follow steps into Smart sequence to contact more leads in less time."
         },
         {
             image:"../Images/Prop/SolutionData/Linkdin/image6.png",
@@ -39,7 +39,7 @@ const LinkdInSolution = () => {
         <div>
             <CommonBanner
                 head={<>Take advantage of <span className='text-primblue'>LinkedIn's</span> full potential. </>}
-                para={"Send connection requests, personalize all types of LinkedIn messages, and combine free & paid InMails, all on autopilot."}
+                para={"Send connection requests, personalize all types of LinkedIn messages, and combine paid InMails, all on autopilot."}
                 Image="../Images/Banner/Solution/LinkDin.png"
                 button="Get started"
             />
